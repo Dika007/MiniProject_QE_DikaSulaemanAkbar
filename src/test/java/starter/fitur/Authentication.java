@@ -18,7 +18,7 @@ public class Authentication {
     @Step("I send HTTP request")
     public void sendGetHttpRequest(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "heafa1aisas@mail.com");
+        requestBody.put("email", "jdandfniaidnisas@mail.com");
         requestBody.put("password", "123123");
         requestBody.put("fullname", "Firstname Lastname");
 
@@ -28,7 +28,7 @@ public class Authentication {
     @Step("I receive valid HTTP response code 200")
     public void validateHttpResponseCode200(){
 
-        restAssuredThat(response -> response.statusCode(400));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
 
