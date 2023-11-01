@@ -18,7 +18,7 @@ public class Authentication {
     @Step("I send HTTP request")
     public void sendGetHttpRequest(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "jdandfniaidnisas@mail.com");
+        requestBody.put("email", "jndnanondoaoocmidnisas@mail.com");
         requestBody.put("password", "123123");
         requestBody.put("fullname", "Firstname Lastname");
 
